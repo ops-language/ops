@@ -47,8 +47,8 @@ Operator | Description
 `aut`    | xor
 `vel`    | or
 `et`     | and
-`||`     | where (usage: `expr || assignlike, assignlike) the identifiers from the assignement like expression get substituted with the expressions in the main expression
-`|>`     | pass to (takes the result of the expression and feeds it to the rhs)
+`\|\|`   | haskell's where (usage: `expr \|\| assignlike, assignlike`)
+`\|>`    | pass to (takes the result of the expression and feeds it to the rhs)
 
 ## Expressions
 * closure
