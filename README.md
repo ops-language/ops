@@ -8,8 +8,8 @@ Type        | Description
 `Integer`   | extensible signed integer (32-bit minimum)
 `Q`         | floating point number storead as a fraction (Z / Z)
 `R`         | 64 bit floating point number
-`bool`      | boolean value, stored in the boolean stack (1bit)
-`byte`      | 8-bit unsigned integer
+`Bool`      | boolean value, stored in the boolean stack (1bit)
+`Byte`      | 8-bit unsigned integer
 `(A, B, C)` | tuple of type A, B and C
 `{A}`       | set of type A
 `A -> B`    | function from A to B
@@ -19,7 +19,7 @@ Identifier   | Description
 ---          | ---
 `infer`      | imports a module (by copying the tokens)
 `exfer`      | for functions and variables, doesn't mangle and builds a simple c function that requires all the parameters them (in front of declarations)
-`externus`   | declares existance of a function/varibale extern to the program (in front of declarations)
+`externum`   | declares existance of a function/varibale extern to the program (in front of declarations)
 `datum`      | declares a new data
 
 ## Operators
@@ -78,7 +78,7 @@ Operator | Description
 * expression (only in main)
 * declaration: `id : typeid;`
 * assignement: `id := expr;`
-* main: `main { externfunc(expr1); externfunc2(expr2); };`
+* main: `potissima { externfunc(expr1); externfunc2(expr2); };`
 
 ## Design
 * strong type system:
