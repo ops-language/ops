@@ -21,6 +21,7 @@ Identifier   | Description
 `exfer`      | for functions and variables, doesn't mangle and builds a simple c function that requires all the parameters them (in front of declarations)
 `externum`   | declares existance of a function/varibale extern to the program (in front of declarations)
 `datum`      | declares a new data
+`pars`       | declares a module (but like rust impl)
 
 ## Operators
 Operator | Description
@@ -87,6 +88,7 @@ Operator | Description
 
 ## Building
 * config file (build.toml)
+    * main file
     * name
     * version
     * target
